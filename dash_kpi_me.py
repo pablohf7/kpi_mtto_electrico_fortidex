@@ -52,7 +52,7 @@ def load_data_from_google_sheets():
         gsheet_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=xlsx"
         
         # Leer el archivo directamente desde Google Sheets
-        df = pd.read_excel(gsheet_url, sheet_name='DATAMTTO')
+        df = pd.read_excel(gsheet_url, sheet_name='DATAME')
         
         # Limpiar y preparar datos
         df = clean_and_prepare_data(df)
