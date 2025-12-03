@@ -46,7 +46,7 @@ def calcular_duracion_minutos(fecha_inicio, hora_inicio, fecha_fin, hora_fin):
 def load_data_from_google_sheets():
     try:
         # ID del archivo de Google Sheets
-        sheet_id = "1X3xgXkeyoei0WkgoNV54zx83XkIKhDlOVEo93lsaFB0"
+        sheet_id = "1ZnoLtoRFT8Bb_mQ18hBLklCNjkGopsR3JyIAo_j0bqA"
         
         # Construir URL para exportar como CSV
         gsheet_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=xlsx"
