@@ -392,7 +392,7 @@ def format_date_dd_mm_aaaa(date):
 
 # Interfaz principal
 def main():
-    st.title("📊 Dashboard de Indicadores de Mantenimiento Mecánico Fortidex")
+    st.title("📊 Dashboard de Indicadores de Mantenimiento Eléctrico Fortidex")
     
     # Inicializar datos en session_state si no existen
     if 'data' not in st.session_state:
